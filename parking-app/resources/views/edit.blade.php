@@ -128,8 +128,8 @@
             <div class="row-md-4">
                 <label>Находится на стоянке
                     <select class="form-select" name="is_a_parking{{$i+1}}">
-                        <option {{$clientCars[$i]->is_a_parking === 1 ? ' selected' : ''}} value="true">Да</option>
-                        <option {{$clientCars[$i]->is_a_parking === 0 ? ' selected' : ''}} value="false">Нет</option>
+                        <option {{$clientCars[$i]->is_a_parking === 1 ? ' selected' : ''}} value="1">Да</option>
+                        <option {{$clientCars[$i]->is_a_parking === 0 ? ' selected' : ''}} value="0">Нет</option>
                     </select>
                 </label>
             </div>
@@ -189,8 +189,8 @@
         <div class="row-md-4">
             <label>Находится на стоянке
                 <select class="form-select" name="is_a_parking">
-                    <option value="true">Да</option>
-                    <option value="false">Нет</option>
+                    <option value="1">Да</option>
+                    <option value="0">Нет</option>
                 </select>
             </label>
         </div>

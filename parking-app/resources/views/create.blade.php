@@ -138,8 +138,8 @@
                     '<div class="row-md-4">' +
                     '<label>Находится на стоянке' +
                     '<select class="form-select"  name="is_a_parking' + (i + 1) + '">' +
-                    '<option  value="true">Да</option>' +
-                    '<option  value="false">Нет</option>' +
+                    '<option  value="1">Да</option>' +
+                    '<option  value="0">Нет</option>' +
                     '</select>' +
                     '</label>' +
                     '</div><br>';
